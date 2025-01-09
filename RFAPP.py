@@ -21,9 +21,6 @@ def predict_fruit(diameter, weight, red, green, blue):
     prediction = model.predict(features)
     return label_encoder.inverse_transform(prediction)[0]
 
-# Judul aplikasi
-st.title("Aplikasi Prediksi Buah")
-
 # Input dari pengguna
 diameter = st.number_input("Masukkan Diameter (cm):", min_value=0.0)
 weight = st.number_input("Masukkan Berat (gram):", min_value=0.0)
