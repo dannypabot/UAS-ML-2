@@ -6,7 +6,7 @@ from sklearn.preprocessing import LabelEncoder
 import pickle
 
 # Judul Aplikasi
-st.title('Aplikasi Prediksi Jenis Buah Berbasis Streamlit')
+st.title('Aplikasi Prediksi Jenis Buah Berbasis Streamlit Random forest by Dannypa_')
 
 # Load model dan encoder
 with open('frfruit.pkl', 'rb') as model_file:
